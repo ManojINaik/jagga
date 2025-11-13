@@ -119,7 +119,7 @@ var templateurl = 'https://www.aquasoniccarwash.com/wp-content/themes/aquasonic2
 			display: block;
 		}
 
-		/* Glassmorphic effect for fleet cards */
+		/* Glassmorphic effect for car cards */
 		.package-slide .content {
 			background: rgba(255, 255, 255, 0.15);
 			backdrop-filter: blur(10px);
@@ -281,14 +281,14 @@ var templateurl = 'https://www.aquasoniccarwash.com/wp-content/themes/aquasonic2
 		</picture>
 	</section>
 
-<section id="our-fleet" class="section content scroll-monitor" style="--section-prev-bg: var(--color-cyan-gradient-2);--section-next-bg: var(--color-white);">
+<section id="our-cars" class="section content scroll-monitor" style="--section-prev-bg: var(--color-cyan-gradient-2);--section-next-bg: var(--color-white);">
 	<div class="inner content-grid section-color bg-white">
 		<div class="container">
 			<div class="grid align-middle">
 				<div class="col-xs-12 cell">
 					<div class="section-content">
 						<div class="title-elements mb-large">
-							<h2 class="section-title h2 scroll-monitor">Our Fleet</h2>
+							<h2 class="section-title h2 scroll-monitor">Our Cars</h2>
 							<h3 class="h5 section-subtitle">Choose the perfect vehicle for your journey</h3>
 							<span class="item drag-explore">Drag to explore <svg class="icon drag"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 22.4"><path d="M2.1 4.2A2.1 2.1 0 1 0 0 2.1a2.1 2.1 0 0 0 2.1 2.1Zm0 9.1A2.1 2.1 0 1 0 0 11.2a2.1 2.1 0 0 0 2.1 2.1Zm2.1 7a2.1 2.1 0 1 1-2.1-2.1 2.1 2.1 0 0 1 2.1 2.1Zm7.7-16.1a2.1 2.1 0 1 0-2.1-2.1 2.1 2.1 0 0 0 2.1 2.1Zm2.1 7a2.1 2.1 0 1 1-2.1-2.1 2.1 2.1 0 0 1 2.1 2.1Zm-2.1 11.2a2.1 2.1 0 1 0-2.1-2.1 2.1 2.1 0 0 0 2.1 2.1Z" data-name="Path 2218"/></svg></span>
 						</div>
@@ -297,7 +297,7 @@ var templateurl = 'https://www.aquasoniccarwash.com/wp-content/themes/aquasonic2
 			</div>
 			<div class="packages-slider-wrapper carousel">
 
-<a href="#contact" title="Reserve Tempo Traveller" class="package-slide slide" style="background-image: url('local-assets/img/TT360.png'); background-size: cover; background-position: center;">
+<a href="#" onclick="openCarModal('tempo-traveller'); return false;" title="View Tempo Traveller Details" class="package-slide slide" style="background-image: url('local-assets/img/TT360.png'); background-size: cover; background-position: center;">
 	<span class="circle-button"></span>
 	<span class="content">
 		<span class="pill">Group Travel</span>
@@ -305,10 +305,10 @@ var templateurl = 'https://www.aquasoniccarwash.com/wp-content/themes/aquasonic2
 		<span class="package-subtitle">Perfect for Large Groups</span>
 		<span class="package-desc">Spacious and comfortable for family trips and group travel. Ample luggage space and cost-effective solution for exploring Murudeshwar with your loved ones.</span>
 	</span>
-	<span class="discover-more"><span>Reserve Now</span></span>
+	<span class="discover-more"><span>View Details</span></span>
 </a>
 
-<a href="#contact" title="Reserve Innova Crysta" class="package-slide slide" style="background-image: url('local-assets/img/crysta-bgremoved.png'); background-size: cover; background-position: center;">
+<a href="#" onclick="openCarModal('innova-crysta'); return false;" title="View Innova Crysta Details" class="package-slide slide" style="background-image: url('local-assets/img/crysta-bgremoved.png'); background-size: cover; background-position: center;">
 	<span class="circle-button"></span>
 	<span class="content">
 		<span class="pill">Most Popular</span>
@@ -316,27 +316,27 @@ var templateurl = 'https://www.aquasoniccarwash.com/wp-content/themes/aquasonic2
 		<span class="package-subtitle">Premium Comfort & Space</span>
 		<span class="package-desc">Smooth ride, great comfort, and room for everyone. The perfect choice for family trips to temples, beaches, and nearby attractions with superior comfort.</span>
 	</span>
-	<span class="discover-more"><span>Reserve Now</span></span>
+	<span class="discover-more"><span>View Details</span></span>
 </a>
 
-<a href="#contact" title="Reserve Swift" class="package-slide slide" style="background-image: url('local-assets/img/swift.png'); background-size: cover; background-position: center;">
+<a href="#" onclick="openCarModal('swift'); return false;" title="View Swift Details" class="package-slide slide" style="background-image: url('local-assets/img/swift.png'); background-size: cover; background-position: center;">
 	<span class="circle-button"></span>
 	<span class="content">
 		<span class="package-title">Swift</span>
 		<span class="package-subtitle">Compact & Efficient</span>
 		<span class="package-desc">Compact, fuel-efficient, and easy to drive in the city. Ideal for couples and small families exploring Murudeshwar's temples, beaches, and local markets.</span>
 	</span>
-	<span class="discover-more"><span>Reserve Now</span></span>
+	<span class="discover-more"><span>View Details</span></span>
 </a>
 
-<a href="#contact" title="Reserve Tempo" class="package-slide slide" style="background-image: url('local-assets/img/TT.png'); background-size: cover; background-position: center;">
+<a href="#" onclick="openCarModal('tempo'); return false;" title="View Tempo Details" class="package-slide slide" style="background-image: url('local-assets/img/TT.png'); background-size: cover; background-position: center;">
 	<span class="circle-button"></span>
 	<span class="content">
 		<span class="package-title">Tempo</span>
 		<span class="package-subtitle">Budget-Friendly Choice</span>
 		<span class="package-desc">Cost-effectiveness, ample luggage space, and group travel convenience. Perfect for budget-conscious travelers seeking comfort and space for coastal Karnataka exploration.</span>
 	</span>
-	<span class="discover-more"><span>Reserve Now</span></span>
+	<span class="discover-more"><span>View Details</span></span>
 </a>
 
 			</div>
@@ -1196,6 +1196,552 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   gtag('config', 'G-RKJ8P87JPJ');
 </script>
 -->
+
+<!-- Car Detail Modal -->
+<div id="car-modal" class="car-modal">
+	<div class="car-modal-overlay" onclick="closeCarModal()"></div>
+	<div class="car-modal-content">
+		<button class="car-modal-close" onclick="closeCarModal()">&times;</button>
+		<div class="car-modal-body">
+			<div class="car-modal-image">
+				<img id="modal-car-image" src="" alt="">
+			</div>
+			<div class="car-modal-details">
+				<div class="car-modal-header">
+					<span id="modal-car-pill" class="pill"></span>
+					<h2 id="modal-car-title" class="car-modal-title"></h2>
+					<h3 id="modal-car-subtitle" class="car-modal-subtitle"></h3>
+				</div>
+				<div class="car-modal-description">
+					<p id="modal-car-desc"></p>
+				</div>
+				<div class="car-modal-features">
+					<h4>Features & Specifications</h4>
+					<ul id="modal-car-features"></ul>
+				</div>
+				<div class="car-modal-pricing">
+					<div class="price-section">
+						<h4>Rental Rates</h4>
+						<div id="modal-car-prices"></div>
+					</div>
+				</div>
+				<div class="car-modal-actions">
+					<button id="modal-book-now" class="btn-book-now" onclick="bookCar()">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+						</svg>
+						Book Now on WhatsApp
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+/* Car Modal Styles */
+.car-modal {
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+.car-modal.active {
+	display: block;
+}
+
+.car-modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+}
+
+.car-modal-content {
+	position: relative;
+	background: #ffffff;
+	margin: 2% auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+	border-radius: 20px;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+	animation: slideUp 0.4s ease;
+	overflow: hidden;
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.car-modal-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: rgba(255, 255, 255, 0.9);
+	color: #333;
+	border: none;
+	font-size: 40px;
+	font-weight: 300;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.car-modal-close:hover {
+	background: #34f6f2;
+	color: white;
+	transform: rotate(90deg);
+}
+
+.car-modal-body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0;
+	min-height: 600px;
+}
+
+.car-modal-image {
+	background: linear-gradient(135deg, #34f6f2 0%, #1ac7c4 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.car-modal-image::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
+}
+
+.car-modal-image img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	position: relative;
+	z-index: 1;
+	filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
+}
+
+.car-modal-details {
+	padding: 50px 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	overflow-y: auto;
+	max-height: 80vh;
+}
+
+.car-modal-header .pill {
+	display: inline-block;
+	padding: 6px 16px;
+	background: rgba(52, 246, 242, 0.15);
+	color: #1ac7c4;
+	border-radius: 20px;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+	border: 1px solid rgba(52, 246, 242, 0.3);
+}
+
+.car-modal-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #1a1a1a;
+	margin: 10px 0;
+	line-height: 1.2;
+}
+
+.car-modal-subtitle {
+	font-size: 20px;
+	color: #666;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+}
+
+.car-modal-description p {
+	font-size: 16px;
+	line-height: 1.7;
+	color: #555;
+	margin: 0;
+}
+
+.car-modal-features h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1a1a1a;
+	margin: 0 0 15px 0;
+}
+
+.car-modal-features ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 12px;
+}
+
+.car-modal-features li {
+	padding: 10px 15px;
+	background: #f8f9fa;
+	border-radius: 8px;
+	font-size: 14px;
+	color: #333;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.car-modal-features li::before {
+	content: '✓';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #34f6f2;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	flex-shrink: 0;
+}
+
+.car-modal-pricing h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1a1a1a;
+	margin: 0 0 15px 0;
+}
+
+.price-section {
+	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+	padding: 20px;
+	border-radius: 12px;
+	border-left: 4px solid #34f6f2;
+}
+
+#modal-car-prices {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.price-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.price-item:last-child {
+	border-bottom: none;
+}
+
+.price-label {
+	font-size: 15px;
+	color: #555;
+	font-weight: 500;
+}
+
+.price-value {
+	font-size: 18px;
+	color: #1a1a1a;
+	font-weight: 700;
+}
+
+.btn-book-now {
+	width: 100%;
+	padding: 18px 30px;
+	background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+	color: white;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
+}
+
+.btn-book-now svg {
+	width: 24px;
+	height: 24px;
+}
+
+.btn-book-now:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 12px 35px rgba(37, 211, 102, 0.4);
+	background: linear-gradient(135deg, #128C7E 0%, #25D366 100%);
+}
+
+.btn-book-now:active {
+	transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+	.car-modal-content {
+		width: 95%;
+		margin: 5% auto;
+	}
+
+	.car-modal-body {
+		grid-template-columns: 1fr;
+	}
+
+	.car-modal-image {
+		min-height: 300px;
+	}
+
+	.car-modal-details {
+		padding: 30px 25px;
+		max-height: none;
+	}
+
+	.car-modal-title {
+		font-size: 28px;
+	}
+
+	.car-modal-features ul {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 480px) {
+	.car-modal-close {
+		top: 10px;
+		right: 10px;
+		width: 40px;
+		height: 40px;
+		font-size: 32px;
+	}
+
+	.car-modal-title {
+		font-size: 24px;
+	}
+
+	.car-modal-subtitle {
+		font-size: 16px;
+	}
+
+	.car-modal-details {
+		padding: 20px 15px;
+	}
+}
+</style>
+
+<script>
+// Car data with features and pricing
+const carData = {
+	'tempo-traveller': {
+		title: 'Tempo Traveller',
+		subtitle: 'Perfect for Large Groups',
+		pill: 'Group Travel',
+		image: 'local-assets/img/TT360.png',
+		description: 'Spacious and comfortable for family trips and group travel. Ample luggage space and cost-effective solution for exploring Murudeshwar with your loved ones. Perfect for pilgrimages, family outings, and group tours.',
+		features: [
+			'Seating: 12-14 passengers',
+			'Air Conditioning',
+			'Push-back seats',
+			'Ample luggage space',
+			'Music system',
+			'First-aid kit',
+			'Well-maintained & clean',
+			'Experienced driver'
+		],
+		prices: [
+			{ label: 'Full Day (8 hrs)', value: '₹3,500' },
+			{ label: 'Half Day (4 hrs)', value: '₹2,000' },
+			{ label: 'Per Km (above limit)', value: '₹18' }
+		]
+	},
+	'innova-crysta': {
+		title: 'Innova Crysta',
+		subtitle: 'Premium Comfort & Space',
+		pill: 'Most Popular',
+		image: 'local-assets/img/crysta-bgremoved.png',
+		description: 'Smooth ride, great comfort, and room for everyone. The perfect choice for family trips to temples, beaches, and nearby attractions with superior comfort. Experience luxury and reliability on every journey.',
+		features: [
+			'Seating: 6-7 passengers',
+			'Premium interiors',
+			'Dual AC with rear vents',
+			'Spacious legroom',
+			'Music & Bluetooth',
+			'Power windows',
+			'Safety features',
+			'Professional driver'
+		],
+		prices: [
+			{ label: 'Full Day (8 hrs)', value: '₹3,000' },
+			{ label: 'Half Day (4 hrs)', value: '₹1,800' },
+			{ label: 'Per Km (above limit)', value: '₹16' }
+		]
+	},
+	'swift': {
+		title: 'Swift',
+		subtitle: 'Compact & Efficient',
+		pill: 'Budget Friendly',
+		image: 'local-assets/img/swift.png',
+		description: 'Compact, fuel-efficient, and easy to drive in the city. Ideal for couples and small families exploring Murudeshwar\'s temples, beaches, and local markets. Perfect for day trips and short excursions.',
+		features: [
+			'Seating: 4-5 passengers',
+			'Fuel efficient',
+			'Air Conditioning',
+			'Music system',
+			'Compact parking',
+			'City-friendly',
+			'Well-maintained',
+			'Experienced driver'
+		],
+		prices: [
+			{ label: 'Full Day (8 hrs)', value: '₹2,000' },
+			{ label: 'Half Day (4 hrs)', value: '₹1,200' },
+			{ label: 'Per Km (above limit)', value: '₹12' }
+		]
+	},
+	'tempo': {
+		title: 'Tempo',
+		subtitle: 'Budget-Friendly Choice',
+		pill: 'Value for Money',
+		image: 'local-assets/img/TT.png',
+		description: 'Cost-effectiveness, ample luggage space, and group travel convenience. Perfect for budget-conscious travelers seeking comfort and space for coastal Karnataka exploration. Reliable and economical for group outings.',
+		features: [
+			'Seating: 8-10 passengers',
+			'Budget-friendly rates',
+			'Good luggage capacity',
+			'Comfortable seating',
+			'Fan/ventilation',
+			'Group travel ready',
+			'Regular maintenance',
+			'Reliable service'
+		],
+		prices: [
+			{ label: 'Full Day (8 hrs)', value: '₹2,500' },
+			{ label: 'Half Day (4 hrs)', value: '₹1,500' },
+			{ label: 'Per Km (above limit)', value: '₹14' }
+		]
+	}
+};
+
+// Open car modal
+function openCarModal(carId) {
+	const modal = document.getElementById('car-modal');
+	const car = carData[carId];
+
+	if (!car) return;
+
+	// Populate modal content
+	document.getElementById('modal-car-image').src = car.image;
+	document.getElementById('modal-car-image').alt = car.title;
+	document.getElementById('modal-car-pill').textContent = car.pill;
+	document.getElementById('modal-car-title').textContent = car.title;
+	document.getElementById('modal-car-subtitle').textContent = car.subtitle;
+	document.getElementById('modal-car-desc').textContent = car.description;
+
+	// Populate features
+	const featuresList = document.getElementById('modal-car-features');
+	featuresList.innerHTML = '';
+	car.features.forEach(feature => {
+		const li = document.createElement('li');
+		li.textContent = feature;
+		featuresList.appendChild(li);
+	});
+
+	// Populate prices
+	const pricesList = document.getElementById('modal-car-prices');
+	pricesList.innerHTML = '';
+	car.prices.forEach(price => {
+		const priceItem = document.createElement('div');
+		priceItem.className = 'price-item';
+		priceItem.innerHTML = `
+			<span class="price-label">${price.label}</span>
+			<span class="price-value">${price.value}</span>
+		`;
+		pricesList.appendChild(priceItem);
+	});
+
+	// Store current car for booking
+	modal.setAttribute('data-current-car', carId);
+
+	// Show modal
+	modal.classList.add('active');
+	document.body.style.overflow = 'hidden';
+}
+
+// Close car modal
+function closeCarModal() {
+	const modal = document.getElementById('car-modal');
+	modal.classList.remove('active');
+	document.body.style.overflow = '';
+}
+
+// Book car via WhatsApp
+function bookCar() {
+	const modal = document.getElementById('car-modal');
+	const carId = modal.getAttribute('data-current-car');
+	const car = carData[carId];
+
+	if (!car) return;
+
+	const phoneNumber = '919876543210'; // WhatsApp number
+	const message = `Hello! I would like to book the *${car.title}* for my trip to Murudeshwar. Could you please provide more details about availability and booking process? Thank you!`;
+	const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+	window.open(whatsappUrl, '_blank');
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(event) {
+	if (event.key === 'Escape') {
+		closeCarModal();
+	}
+});
+</script>
 
 <!-- Polyfill -->
 </body>
